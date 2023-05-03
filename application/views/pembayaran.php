@@ -61,6 +61,7 @@
     <script type="text/javascript">
     $(document).ready(function() {
         $("#payment-form").validate({
+            ignore: [],
             rules: {
                 nama: {
                     required: true,
